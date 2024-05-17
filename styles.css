@@ -70,3 +70,8 @@ html, body {
   p {
     font-family: "Recursive";
   }
+
+  a {
+    color: black;
+    font-weight: bold;
+  }
