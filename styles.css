@@ -67,6 +67,11 @@ html, body {
     font-weight:bolder
   }
 
+  h3 {
+    font-family: "Recursive";
+    font-weight: 400;
+  }
+
   p {
     font-family: "Recursive";
   }
@@ -74,4 +79,9 @@ html, body {
   a {
     color: black;
     font-weight: bold;
+  }
+
+  .project {
+    padding: 2px;
+    background-color: #edeeff;
   }
