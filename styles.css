@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Recursive:wght@300..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Fira+Code:wght@300..700&family=Varela+Round&display=swap');
 
 html, body {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    color: #eceff4;
+    background-color: #2e3440;
   }
 
 .container {
@@ -44,7 +45,7 @@ html, body {
 
   .navbar-list {
     margin-bottom: 20px;
-    font-family: "Source Code Pro";
+    font-family: "Fira Code";
   }
 
   .social-icons img {
@@ -59,22 +60,22 @@ html, body {
   }
 
   h1 {
-    font-family: "IBM Plex Serif", serif;
+    font-family: "Fira Code", serif;
     font-weight: 500;
   }
 
   h2 {
-    font-family: "Recursive";
+    font-family: "Fira Code";
     font-weight:bolder
   }
 
   h3 {
-    font-family: "Recursive";
+    font-family: "Fira Code";
     font-weight: 400;
   }
 
   span, p {
-    font-family: "Recursive";
+    font-family: "Fira Code";
   }
 
   span a {
@@ -82,21 +83,59 @@ html, body {
   }
 
   a {
-    color: black;
+    color: #d8dee9;
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #d8dee9;
     font-weight: bold;
   }
 
   .flipthetories {
     padding: 2px;
-    background-color: #ddffdd;
+    color: #2e3440;
+    background-color: #a3be8c;
+  }
+
+  .flipthetories a {
+    color: #4c566a;
+    font-weight: bold;
+  }
+
+  .flipthetories a:visited {
+    color: #4c566a;
+    font-weight: bold;
   }
 
   .trunqie {
     padding: 2px;
-    background-color: #edeeff;
+    color: #2e3440;
+    background-color: #b48ead;
+  }
+
+  .trunqie a {
+    color: #4c566a;
+    font-weight: bold;
+  }
+
+  .trunqie a:visited {
+    color: #4c566a;
+    font-weight: bold;
   }
 
   .portfolio {
     padding: 2px;
-    background-color: #fdf8e1;
+    color: #2e3440;
+    background-color: #ebcb8b;
+  }
+
+  .portfolio a {
+    color: #4c566a;
+    font-weight: bold;
+  }
+
+  .portfolio a:visited {
+    color: #4c566a;
+    font-weight: bold;
   }
