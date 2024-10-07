@@ -107,36 +107,36 @@ html, body {
 h3.cv {
   color: #4c566a;
   background-color: #eceff4;
-  display: inline-block; /* Keeps background only behind text */
-  padding: 5px; /* Adds space around text */
-  margin: 0; /* Resets margin */
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
 }
 
 p.cv {
   color: #4c566a;
   font-size: larger;
-  display: inline-block; /* Keeps background only behind text */
-  padding: 2px; /* Adds space around text */
+  display: inline-block;
+  padding: 2px; 
 }
 
 p.cvinline {
   color: #2e3440;
   background-color: #d8dee9;
-  display: inline-block; /* Keeps background only behind text */
+  display: inline-block;
   margin: 0px;
 }
 
 h2.cv {
   color: #4c566a;
   background-color: #d8dee9;
-  display: inline-block; /* Keeps background only behind text */
-  padding: 5px; /* Adds space around text */
-  margin: 0; /* Resets margin */
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
 }
 
 p.cvpr {
   color: #4c566a;
   font-size: larger;
-  display: inline-block; /* Keeps background only behind text */
-  padding: 2px; /* Adds space around text */
+  display: inline-block; 
+  padding: 2px;
 }
