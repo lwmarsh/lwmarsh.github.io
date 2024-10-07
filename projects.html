@@ -1,69 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lwmarsh</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="content">
-        <header>
-          <h1>lwmarsh</h1>
-          <ul class="navbar-list">
-            <li><a href="./index.html">/home</a></li>
-            <li><a href="./about.html">/about</a></li>
-            <li><a href="./projects.html">/projects</a></li>
-          </ul>
-        </header>
-        <div>
-          <h1>projects ⌨️</h1>
-          <div class="flipthetories">
-            <h2>Flip the Tories ❎</h2>
-            <p>Flip the Tories is a basic tactical vote recommender written in PHP which uses 2024 voting data borrowed from <a href="https://tactical.vote/">tactical.vote</a>.</p>
-            <h3>Comments:</h3>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>projects - lwmarsh</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<header>
+					<h1>lwmarsh</h1>
+					<ul class="navbar-list">
+						<li><a href="./index.html">/home</a></li>
+						<li><a href="./about.html">/about</a></li>
+						<li><a href="./projects.html">/projects</a></li>
+					</ul>
+				</header>
+				<div>
+					<h1>projects ⌨️</h1>
+          <hr />
+
+					<div class="supertram">
+						<h2 class="cv">Sheffield Supertram App 🚊</h2>
+						<li>
+              <p class="cvpr" style="background-color: #8fbcbb;">C#</p>
+              <p class="cvpr" style="background-color: #81a1c1;">.NET</p>
+              <p class="cvpr" style="background-color: #a3be8c;">LeafletJS</p>
+              <p class="cvpr" style="background-color: #b48ead;">React</p>
+              <p class="cvpr" style="background-color: #d08770;">OpenStreetMap (OSM)</p>
+              <p class="cvpr" style="background-color: #ebcb8b;">Overpass Turbo</p>
+          </li>
+            <p>The Sheffield Supertram App is a mobile-first web app developed for a university project with two other team members, streamlining Sheffield’s tram network with features like journey planning, ticket purchasing, and live chat.</p>
+						<ul>
+							<p>👥 Collaborative project developed as part of a university course, with team members contributing to different areas.</p>
+							<p>💻 Built with C#/.NET to handle backend logic and API endpoints, enabling real-time journey planning.</p>
+							<p>🗺️ LeafletJS was used to create and manipulate custom maps, showcasing tram routes and dynamic data overlays.</p>
+							<p>⚛️ The project features a React frontend for a modern, interactive user experience.</p>
+							<p>🌍 OpenStreetMap (OSM) data was integrated using Overpass Turbo to pull, format, and display location data for the journey planner.</p>
+							<p>📈 Developed in an Agile environment with task management via Jira and a Kanban board, ensuring iterative development and regular feedback.</p>
+						</ul>
+						<small>Assessed university assignment – code samples and detailed project walk-through available upon request.</small>
+					</div>
+					<hr />
+
+          <div class="hdnsheffield">
+            <h2 class="cv">HDN Sheffield 🏙️</h2>
+            <li>
+              <p class="cvpr" style="background-color: #8fbcbb;">Laravel</p>
+              <p class="cvpr" style="background-color: #81a1c1;">MySQL</p>
+              <p class="cvpr" style="background-color: #a3be8c;">FilamentPHP</p>
+              <p class="cvpr" style="background-color: #b48ead;">LeafletJS</p>
+              <p class="cvpr" style="background-color: #d08770;">GeoJSON</p>
+              <p class="cvpr" style="background-color: #ebcb8b;">Tailwind CSS</p>
+            </li>
+            <p>HDN Sheffield is a Laravel-based resource for independent businesses and attractions in Sheffield, built to showcase the city's best pubs, restaurants, parks, and more. The project integrates FilamentPHP for easy content management and uses LeafletJS for dynamic mapping of neighbourhoods, which I created using GeoJSON data.</p>
             <ul>
-              <p>✔️ Users can enter their constituency to find out who they should vote for in order to "flip" the Conservative Party.</p>
-              <p>✔️ Data is up to date for 4 July 2024 and includes recommendations based on new constituency boundaries.</p>
+              <p>🏙️ Neighbourhood boundaries created with GeoJSON, displayed on the site using LeafletJS for a visual overview of the city.</p>
+              <p>📋 FilamentPHP provides a streamlined CMS for easy CRUD operations, allowing for rapid content management of businesses.</p>
+              <p>🌍 Built with Laravel's ORM (Eloquent) and MySQL for database handling, with future plans to implement user search and filtering by neighbourhood or business type.</p>
+              <p>🎨 Tailwind CSS is used for styling, ensuring a clean and responsive front-end experience.</p>
+              <p>🚧 The project is a work-in-progress, with plans for further expansion and a larger business database before public launch.</p>
             </ul>
-            <span>
-              <small><a href="https://github.com/lwmarsh/flipthetories">GitHub Repo</a></small> 
-              <small><a href="https://flipthetories.co.uk">Live Demo</a></small>
-            </span>
-            </div>  
-            <br>
-          <div class="trunqie">
-          <h2>Trunqie 🐘</h2>
-          <p>Trunqie is an in-progress Twitter clone written in PHP.</p>
-          <h3>Comments:</h3>
-          <ul>
-            <p>✔️ Visitors can sign up and log in</p>
-            <p>✔️ Users can post trunqs and view all previously posted trunqs</p>
-            <p>🚧 Next step is being able to add more information to user profiles</p>
-          </ul>
-          <p><small><a href="https://github.com/lwmarsh/trunqie">GitHub Repo</a></p></small>
-          </div>  
-          <br>
-          <div class="portfolio">
-            <h2>Portfolio ✏</h2>
-            <p>This website is a simple, static portfolio site built purely using HTML and CSS, inspired by <a href="https://tomfran.github.io/">TomFran's Hugo portfolio page</a>.</p>
-            <span>
-              <small><a href="https://github.com/lwmarsh/lwmarsh.github.io">GitHub Repo</a></small> 
-              <small><a href="https://lwmarsh.github.io">Live Demo</a></small>
-            </span>            
-            </div>  
-          <footer>
-            <div class="social-icons">
-              <ul>
-                <li><a href="https://github.com/lwmarsh"><img src="./img/github.svg" alt="GitHub"></a></li>
-                <li><a href="https://www.linkedin.com/in/lwmarshall/"><img src="./img/linkedin.svg" alt="LinkedIn"></a></li>
-                <li><a href="https://mastodonapp.uk/@lwmarsh"><img src="./img/mastodon.svg" alt="Mastodon"></a></li>
-              </ul>
-            </div>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+            <small>Private project – code samples and detailed project walk-through available upon request.</small>
+          </div>
+
+          <hr />
+
+          <div class="sincetorino">
+						<h2 class="cv">Since Torino 🎸</h2>
+						<li>
+              <p class="cvpr" style="background-color: #8fbcbb;">HTML</p>
+              <p class="cvpr" style="background-color: #81a1c1;">Tailwind CSS</p>
+              <p class="cvpr" style="background-color: #a3be8c;">Nginx</p>
+              <p class="cvpr" style="background-color: #b48ead;">Cloudflare</p>
+              <p class="cvpr" style="background-color: #d08770;">Let's Encrypt</p>
+              <p class="cvpr" style="background-color: #ebcb8b;">Ubuntu Server</p>
+            </li>
+          <p>Since Torino is a static website I built for my band, hosted on a cloud server that I personally configured and secured.</p>
+						<ul>
+							<p>🎨 Custom-designed using Tailwind CSS for styling, ensuring responsiveness with a modern look.</p>
+							<p>🔒 Deployed and secured using Nginx, with SSL certificates managed via Let's Encrypt.</p>
+							<p>🌐 Cloudflare is used for DNS management and added protection through reverse proxying.</p>
+							<p>🔁 The server is configured to handle multiple domains with Nginx, ensuring security and proper redirects.</p>
+							<p>🛠️ The entire server setup, security configurations (e.g. blocking direct IP access) and SSL automation were handled personally.</p>
+						</ul>
+							<small><a href="https://sincetorino.com">Live Demo</a></small>
+					</div>
+					<hr />
+
+
+					<div class="flipthetories">
+						<h2 class="cv">Flip the Tories ❎</h2>
+						<li>
+              <p class="cvpr" style="background-color: #8fbcbb;">PHP</p>
+              <p class="cvpr" style="background-color: #a3be8c;">MySQL</p>
+              <p class="cvpr" style="background-color: #d08770;">HTML</p>
+              <p class="cvpr" style="background-color: #ebcb8b;">CSS</p>
+          </li>
+          <p>Flip the Tories is a PHP-based tactical voting recommender that leverages up-to-date 2024 data to suggest voting strategies for flipping Conservative seats. Data is sourced from <a href="https://tactical.vote/">tactical.vote</a> and adjusted for new constituency boundaries.</p>
+						<ul>
+							<p>🗳️ Users can enter their constituency to find out who they should vote for in order to "flip" the Conservative Party.</p>
+							<p>📅 Data is up to date for 4 July 2024 and includes recommendations based on new constituency boundaries.</p>
+						</ul>
+						<span>
+							<small><a href="https://github.com/lwmarsh/flipthetories">GitHub Repo</a></small>
+							<small><a href="https://flipthetories.co.uk">Live Demo</a></small>
+						</span>
+					</div>
+
+					<hr />
+
+					<div class="portfolio">
+						<h2 class="cv">Portfolio ✏</h2>
+            <li>
+              <p class="cv" style="background-color: #8fbcbb;">HTML</p>
+              <p class="cv" style="background-color: #ebcb8b;">CSS</p>
+          </li>
+						<p>This website is a simple, static portfolio site built purely using HTML and CSS, inspired by <a href="https://tomfran.github.io/">TomFran's Hugo portfolio page</a>.</p>
+							<small><a href="https://github.com/lwmarsh/lwmarsh.github.io">GitHub Repo</a></small>
+							<small><a href="https://lwmarsh.github.io">Live Demo</a></small>
+					</div>
+          <hr>
+					<footer>
+						<div class="social-icons">
+							<ul>
+								<li>
+									<a href="https://github.com/lwmarsh"><img src="./img/github.svg" alt="GitHub" /></a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/lwmarshall/"><img src="./img/linkedin.svg" alt="LinkedIn" /></a>
+								</li>
+								<li>
+									<a href="https://mastodonapp.uk/@lwmarsh"><img src="./img/mastodon.svg" alt="Mastodon" /></a>
+								</li>
+							</ul>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
