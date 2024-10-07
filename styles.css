@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     color: #eceff4;
     background-color: #2e3440;
+    font-family: "Fira Code";
   }
 
 .container {
@@ -36,11 +37,15 @@ html, body {
   
   ul li {
     display: inline;
-    margin-right: 10px;/
+    margin-right: 10px;
   }
   
   ul li:last-child {
     margin-right: 0;
+  }
+
+  li {
+    list-style-type: none;
   }
 
   .navbar-list {
@@ -92,50 +97,46 @@ html, body {
     font-weight: bold;
   }
 
-  .flipthetories {
-    padding: 2px;
-    color: #2e3440;
-    background-color: #a3be8c;
-  }
+  hr {
+    border: 0;
+    height: 1px;
+    background: #4c566a; 
+    margin: 20px 0; 
+}
 
-  .flipthetories a {
-    color: #4c566a;
-    font-weight: bold;
-  }
+h3.cv {
+  color: #4c566a;
+  background-color: #eceff4;
+  display: inline-block; /* Keeps background only behind text */
+  padding: 5px; /* Adds space around text */
+  margin: 0; /* Resets margin */
+}
 
-  .flipthetories a:visited {
-    color: #4c566a;
-    font-weight: bold;
-  }
+p.cv {
+  color: #4c566a;
+  font-size: larger;
+  display: inline-block; /* Keeps background only behind text */
+  padding: 2px; /* Adds space around text */
+}
 
-  .trunqie {
-    padding: 2px;
-    color: #2e3440;
-    background-color: #b48ead;
-  }
+p.cvinline {
+  color: #2e3440;
+  background-color: #d8dee9;
+  display: inline-block; /* Keeps background only behind text */
+  margin: 0px;
+}
 
-  .trunqie a {
-    color: #4c566a;
-    font-weight: bold;
-  }
+h2.cv {
+  color: #4c566a;
+  background-color: #d8dee9;
+  display: inline-block; /* Keeps background only behind text */
+  padding: 5px; /* Adds space around text */
+  margin: 0; /* Resets margin */
+}
 
-  .trunqie a:visited {
-    color: #4c566a;
-    font-weight: bold;
-  }
-
-  .portfolio {
-    padding: 2px;
-    color: #2e3440;
-    background-color: #ebcb8b;
-  }
-
-  .portfolio a {
-    color: #4c566a;
-    font-weight: bold;
-  }
-
-  .portfolio a:visited {
-    color: #4c566a;
-    font-weight: bold;
-  }
+p.cvpr {
+  color: #4c566a;
+  font-size: larger;
+  display: inline-block; /* Keeps background only behind text */
+  padding: 2px; /* Adds space around text */
+}
